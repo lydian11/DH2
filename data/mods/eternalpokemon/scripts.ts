@@ -2,7 +2,7 @@ export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
 	teambuilderConfig: {
 		excludeStandardTiers: true,
-		customTiers: ["Banned", "FE", "NFE", "LC"],
+		customTiers: ["Banned", "FE", "EP NFE", "EP 2NFE"],
 	},
 	init() {		
 		for (const id in this.dataCache.Pokedex) {
